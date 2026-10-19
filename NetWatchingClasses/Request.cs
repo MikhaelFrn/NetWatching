@@ -3,9 +3,10 @@
     public class Request
     {
         public int Id { get; set; }
+        public int Port { get; set; }
 
-        public Request (int id) {
-            this.Id = id;
+        public Request (int port) {
+            this.Port = port;
         }
     }
 }
